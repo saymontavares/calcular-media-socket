@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { Server } from 'Socket.IO'
+import { Server } from 'socket.io'
 
 const SocketHandler = (req: NextApiRequest, res: any) => {
   if (res.socket.server.io) {
